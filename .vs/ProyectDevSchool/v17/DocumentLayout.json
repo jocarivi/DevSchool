@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\entity\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\entity\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\entity\\boletin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\boletin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\entity\\personas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\personas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\entity\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\entity\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\entity\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C471BC75-A629-4026-A611-0C275A366C83}|ENTITY\\ENTITY.csproj|solutionrelative:entity\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\proyectdevschool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Boletin.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Boletin.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Boletin.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Boletin.cs",
+              "RelativeToolTip": "ENTITY\\Boletin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:03:57.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Grado.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Grado.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Grado.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Grado.cs",
+              "RelativeToolTip": "ENTITY\\Grado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:51:51.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Materia.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Materia.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Materia.cs",
+              "RelativeToolTip": "ENTITY\\Materia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:51:39.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personas.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Personas.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Personas.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Personas.cs",
+              "RelativeToolTip": "ENTITY\\Personas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:39:30.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Administrador.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Administrador.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Administrador.cs",
+              "RelativeToolTip": "ENTITY\\Administrador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:39:26.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Docente.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Docente.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Docente.cs",
+              "RelativeToolTip": "ENTITY\\Docente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:39:04.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Estudiante.cs",
+              "RelativeDocumentMoniker": "ENTITY\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ENTITY\\Estudiante.cs",
+              "RelativeToolTip": "ENTITY\\Estudiante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:38:40.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\Form1.cs",
+              "RelativeDocumentMoniker": "ProyectDevSchool\\Form1.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectDevSchool\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:25:08.771Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
