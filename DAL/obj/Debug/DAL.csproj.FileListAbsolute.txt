@@ -1,0 +1,17 @@
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\DAL.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\DAL.pdb
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\ENTITY.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\linq2db.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\ENTITY.pdb
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\linq2db.xml
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\obj\Debug\DAL.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\DAL\obj\Debug\DAL.pdb

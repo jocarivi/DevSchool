@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    internal class Materia
+    public class Materia
     {
         string id;
         string nombre;

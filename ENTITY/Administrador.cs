@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    internal class Administrador : Personas
+    public class Administrador : Personas
     {
     }
 }

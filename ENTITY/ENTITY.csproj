@@ -44,7 +44,7 @@
     <Compile Include="Administrador.cs" />
     <Compile Include="Boletin.cs" />
     <Compile Include="Docente.cs" />
-    <Compile Include="Estudiante.cs" />
+    <Compile Include="Estudiantes.cs" />
     <Compile Include="Grado.cs" />
     <Compile Include="Materia.cs" />
     <Compile Include="Personas.cs" />

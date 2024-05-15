@@ -1,0 +1,6 @@
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debug\ENTITY.pdb

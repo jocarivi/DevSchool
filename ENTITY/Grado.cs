@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
-    internal class Grado
+    public class Grado
     {
         string id;
         string nombre_grado;
