@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Globalization;
 using System.Linq;
 using System.Net.Mail;
 using System.Security.Cryptography.X509Certificates;
@@ -63,7 +64,81 @@ namespace DAL
             
             return estudiante;
 
-        } 
+        }
+
+        public void Agregar(Estudiantes estudiante) {
+
+            using (var sql = connection.CreateCommand())
+            {
+
+                sql.CommandText = "Insert Into Estudiantes(id_dni,nombre,segundo_nombre,apellido,segundo_apellido,direccion,telefono,fecha_nacimiento,email,promedio)" +
+                    "Values(@id_dni,@nombre,@segundo_nombre,@apellido,@segundo_apellido,@direccion,@telefono,@fecha_nacimiento,@email,@promedio)";
+
+                sql.Parameters.AddWithValue("@id_dni", estudiante.Id_dni);
+                sql.Parameters.AddWithValue("@nombre", estudiante.Nombre);
+                sql.Parameters.AddWithValue("@segundo_nombre", estudiante.Nombre2);
+                sql.Parameters.AddWithValue("@apellido", estudiante.Apellido1);
+                sql.Parameters.AddWithValue("@segundo_apellido", estudiante.Apellido2);
+                sql.Parameters.AddWithValue("@direccion", estudiante.Direccion);
+                sql.Parameters.AddWithValue("@telefono", estudiante.Telefono);
+                sql.Parameters.AddWithValue("@fecha_nacimiento", estudiante.Fecha_Nacimiento.ToShortTimeString());
+                sql.Parameters.AddWithValue("@email", estudiante.Mail.Address);
+                sql.Parameters.AddWithValue("@promedio", estudiante.Promedio_actual);
+                sql.ExecuteNonQuery();
+
+
+
+            }
+
+        }
+
+        public Estudiantes ConsultarId(string identificacion) {
+
+            using (var sql = connection.CreateCommand())
+            {
+
+                sql.CommandText = "Select * from Estudiantes where id_dni = @id_dni";
+                sql.Parameters.AddWithValue("@id_dni", identificacion);
+                var reader = sql.ExecuteReader();
+                if (reader.HasRows) {
+
+                    while (reader.Read()) {
+                        
+                        Estudiantes estudiante = new Estudiantes();
+                        estudiante = Mapear(reader);
+                        return estudiante;                    
+                    }                
+                }                
+            }
+            return null;
+        }
+
+
+        public void Modificar(Estudiantes estudiante) {
+        using (var sql = connection.CreateCommand())
+            {
+
+                sql.CommandText = "Update Estudiantes set nombre=@nombre,segundo_nombre=@segundo_nombre,apellido=@apellido,segundo_apellido=@segundo_apellido,direccion=@direccion,telefono=@telefono,fecha_nacimiento=@fecha_nacimiento,email=@email,promedio=@promedio where id_dni=@id_dni";
+                    
+
+                sql.Parameters.AddWithValue("@id_dni", estudiante.Id_dni);
+                sql.Parameters.AddWithValue("@nombre", estudiante.Nombre);
+                sql.Parameters.AddWithValue("@segundo_nombre", estudiante.Nombre2);
+                sql.Parameters.AddWithValue("@apellido", estudiante.Apellido1);
+                sql.Parameters.AddWithValue("@segundo_apellido", estudiante.Apellido2);
+                sql.Parameters.AddWithValue("@direccion", estudiante.Direccion);
+                sql.Parameters.AddWithValue("@telefono", estudiante.Telefono);
+                sql.Parameters.AddWithValue("@fecha_nacimiento", estudiante.Fecha_Nacimiento.ToShortTimeString());
+                sql.Parameters.AddWithValue("@email", estudiante.Mail.Address);
+                sql.Parameters.AddWithValue("@promedio", estudiante.Promedio_actual);
+                sql.ExecuteNonQuery();
+
+
+
+            }
+        
+        
+        }
     }
 
  

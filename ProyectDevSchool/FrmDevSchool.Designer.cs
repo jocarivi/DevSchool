@@ -174,7 +174,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1302, 79);
+            this.panel1.Size = new System.Drawing.Size(1302, 119);
             this.panel1.TabIndex = 16;
             // 
             // panel_usuarios
@@ -399,9 +399,9 @@
             this.Barra.Controls.Add(this.panel_reportes);
             this.Barra.Controls.Add(this.panel_salir);
             this.Barra.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Barra.Location = new System.Drawing.Point(0, 79);
+            this.Barra.Location = new System.Drawing.Point(0, 119);
             this.Barra.Name = "Barra";
-            this.Barra.Size = new System.Drawing.Size(319, 779);
+            this.Barra.Size = new System.Drawing.Size(479, 739);
             this.Barra.TabIndex = 17;
             // 
             // panel_inicio
@@ -604,7 +604,7 @@
             this.Controls.Add(this.Barra);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
             this.Name = "FrmDevSchool";
             this.Text = "Registro";

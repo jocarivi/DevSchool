@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.lbl_apellido2 = new System.Windows.Forms.Label();
@@ -52,7 +52,6 @@
             this.btn_eliminar = new System.Windows.Forms.Button();
             this.txt_correo = new System.Windows.Forms.TextBox();
             this.lbl_correo = new System.Windows.Forms.Label();
-            this.dataRepeater1 = new Microsoft.VisualBasic.PowerPacks.DataRepeater();
             this.dgt_estudiantes = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgt_estudiantes)).BeginInit();
             this.SuspendLayout();
@@ -61,11 +60,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(338, 9);
+            this.label1.Location = new System.Drawing.Point(355, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(476, 54);
+            this.label1.Size = new System.Drawing.Size(485, 54);
             this.label1.TabIndex = 0;
-            this.label1.Text = "REGISTRO  ESTUDIANTE";
+            this.label1.Text = "GETION DE ESTUDIANTE";
             // 
             // lbl_nombre
             // 
@@ -204,6 +203,7 @@
             this.btn_agregar.TabIndex = 19;
             this.btn_agregar.Text = "AGREGAR";
             this.btn_agregar.UseVisualStyleBackColor = true;
+            this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // btn_consultar
             // 
@@ -223,6 +223,7 @@
             this.btn_modificar.TabIndex = 21;
             this.btn_modificar.Text = "MODIFICAR";
             this.btn_modificar.UseVisualStyleBackColor = true;
+            this.btn_modificar.Click += new System.EventHandler(this.btn_modificar_Click);
             // 
             // btn_eliminar
             // 
@@ -249,40 +250,32 @@
             this.lbl_correo.TabIndex = 23;
             this.lbl_correo.Text = "CORREO";
             // 
-            // dataRepeater1
-            // 
-            this.dataRepeater1.Controls.Add(this.dataRepeater1.ItemTemplate);
-            this.dataRepeater1.Location = new System.Drawing.Point(0, 0);
-            this.dataRepeater1.Name = "dataRepeater1";
-            this.dataRepeater1.Size = new System.Drawing.Size(240, 150);
-            this.dataRepeater1.TabIndex = 0;
-            // 
             // dgt_estudiantes
             // 
-            this.dgt_estudiantes.BackgroundColor = System.Drawing.Color.White;
+            this.dgt_estudiantes.BackgroundColor = System.Drawing.Color.Gray;
             this.dgt_estudiantes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgt_estudiantes.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dgt_estudiantes.GridColor = System.Drawing.Color.Gray;
-            this.dgt_estudiantes.Location = new System.Drawing.Point(115, 308);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgt_estudiantes.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgt_estudiantes.GridColor = System.Drawing.Color.Black;
+            this.dgt_estudiantes.Location = new System.Drawing.Point(34, 308);
             this.dgt_estudiantes.Name = "dgt_estudiantes";
             this.dgt_estudiantes.RowHeadersWidth = 62;
             this.dgt_estudiantes.RowTemplate.Height = 28;
-            this.dgt_estudiantes.Size = new System.Drawing.Size(996, 107);
+            this.dgt_estudiantes.Size = new System.Drawing.Size(1175, 171);
             this.dgt_estudiantes.TabIndex = 25;
             // 
             // FrmResgitroEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(817, 405);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(1246, 609);
             this.Controls.Add(this.dgt_estudiantes);
             this.Controls.Add(this.txt_correo);
             this.Controls.Add(this.lbl_correo);
@@ -307,6 +300,7 @@
             this.Controls.Add(this.lbl_apellido2);
             this.Controls.Add(this.lbl_nombre);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmResgitroEstudiante";
             this.Text = "FrmResgistroEstudiante";
@@ -342,7 +336,6 @@
         private System.Windows.Forms.Button btn_eliminar;
         private System.Windows.Forms.TextBox txt_correo;
         private System.Windows.Forms.Label lbl_correo;
-        private Microsoft.VisualBasic.PowerPacks.DataRepeater dataRepeater1;
         private System.Windows.Forms.DataGridView dgt_estudiantes;
     }
 }
