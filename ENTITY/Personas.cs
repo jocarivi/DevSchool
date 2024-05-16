@@ -19,7 +19,7 @@ namespace ENTITY
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         
-        public DateTime Fecha_Nacimiento { get; set; }
+        public string Fecha_Nacimiento { get; set; }
         public MailAddress Mail { get; set; }
         
 

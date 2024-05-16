@@ -138,6 +138,35 @@ namespace BLL
         
         }
 
+        public string Eliminar(string  identificacion) {
+
+            try
+            {
+
+                conexionRepository.Open();
+                estudiantesRepository.Eliminar(identificacion);
+                return "Estudiante Eliminado correctamente";
+
+            }
+            catch (Exception e)
+            {
+
+                string msg = $"Error al eliminar estudiante: " + e.Message.ToString();
+
+            }
+            finally
+            {
+
+                conexionRepository.Close();
+
+            }
+
+            return null;
+
+
+
+        }
+
        
 
 

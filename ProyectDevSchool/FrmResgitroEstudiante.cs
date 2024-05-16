@@ -21,6 +21,7 @@ namespace ProyectDevSchool
         public FrmResgitroEstudiante()
         {
             InitializeComponent();
+            txt_id.Focus();
             estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
             dgt_estudiantes.DataSource = estudiantesService.Consultar();
         }
@@ -35,7 +36,7 @@ namespace ProyectDevSchool
         {
             if (txt_id.Text == "")
             {
-
+                estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
                 dgt_estudiantes.DataSource = estudiantesService.Consultar();
 
             }
@@ -53,7 +54,8 @@ namespace ProyectDevSchool
                     txt_direecion.Text = estudiante.Direccion;
                     txt_correo.Text = estudiante.Mail.Address;
                     dtp_fechaNacimiento.Text = estudiante.Fecha_Nacimiento.ToString();
-                    txt_telefono.Text = estudiante.Telefono;         
+                    txt_telefono.Text = estudiante.Telefono;
+                    lbl_promedio.Text = estudiante.Promedio_actual.ToString();
 
                 }
                 else {
@@ -84,18 +86,35 @@ namespace ProyectDevSchool
                 estudiante.Apellido2  = txt_apellido2.Text;
                 estudiante.Direccion = txt_direecion.Text;
                 estudiante.Mail = new MailAddress(txt_correo.Text.Trim());
-                estudiante.Fecha_Nacimiento = Convert.ToDateTime(dtp_fechaNacimiento.Text);
+                estudiante.Fecha_Nacimiento = dtp_fechaNacimiento.Text;
                 estudiante.Telefono = txt_telefono.Text;
                 estudiante.Promedio_actual = 0;
                 string mensaje = estudiantesService.Agregar(estudiante);
                 MessageBox.Show(mensaje,"Estudiante registrado :" ,MessageBoxButtons.OK, MessageBoxIcon.Information);
-                dgt_estudiantes.Refresh();
+                estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
+                dgt_estudiantes.DataSource = estudiantesService.Consultar();
+                Limpiar();
 
             } catch(Exception ex) {
 
                 MessageBox.Show("Verifique los datos digitados :" + ex.Message, "Resultado de agregar ", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             
             }
+
+        }
+
+        public void Limpiar()
+        {
+            txt_id.Text = "";
+            txt_nombre1.Text = "";
+            txt_nombre2.Text = "";
+            txt_apelldio1.Text = "";
+            txt_apellido2.Text = "";
+            txt_direecion.Text = "";
+            txt_correo.Text = "";
+            dtp_fechaNacimiento.Text = DateTime.Now.ToString();
+            txt_telefono.Text = "";
+
 
         }
 
@@ -113,14 +132,15 @@ namespace ProyectDevSchool
                     estudiante.Apellido2 = txt_apellido2.Text;
                     estudiante.Direccion = txt_direecion.Text;
                     estudiante.Mail = new MailAddress(txt_correo.Text.Trim());
-                    estudiante.Fecha_Nacimiento = Convert.ToDateTime(dtp_fechaNacimiento.Text);
+                    estudiante.Fecha_Nacimiento = dtp_fechaNacimiento.Text;
                     estudiante.Telefono = txt_telefono.Text;
-                    estudiante.Promedio_actual = 0;
+                    estudiante.Promedio_actual = Convert.ToDecimal(lbl_promedio.Text);
                     var respuesta = MessageBox.Show("¿Desea continuar con esta acción? ", " ", MessageBoxButtons.OKCancel);
                     if (respuesta == DialogResult.OK) {
 
                         string msj = estudiantesService.Modificar(estudiante);
                         MessageBox.Show(msj, "Estudiante Modificado :" , MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Limpiar();
 
                     }
                 }
@@ -129,6 +149,42 @@ namespace ProyectDevSchool
             }
         }
 
-       
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            string identificacion = txt_id.Text;
+
+            if (identificacion != "")
+            {
+                Estudiantes estudiante = estudiantesService.ConsultarId(identificacion);
+                var respuesta = MessageBox.Show("¿Desea continuar con esta acción? ", " ", MessageBoxButtons.OKCancel);
+                if (respuesta == DialogResult.OK)
+                {
+                    string mensaje = estudiantesService.Eliminar(identificacion);
+                    MessageBox.Show(mensaje, "Estudiante Eliminado :", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
+                    dgt_estudiantes.DataSource = estudiantesService.Consultar();
+                    Limpiar();
+
+
+                }
+                else
+                {
+
+                    MessageBox.Show("Estudiante no encontrado para realizar la acción");
+
+                }
+
+
+            }
+            else {
+
+                MessageBox.Show("Digite la identificación");
+
+            }
+
+
+            
+
+        }
     }
 }

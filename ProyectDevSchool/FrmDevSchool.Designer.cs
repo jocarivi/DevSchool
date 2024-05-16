@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDevSchool));
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pic_cerrar = new System.Windows.Forms.PictureBox();
             this.TransicionMenu = new System.Windows.Forms.Timer(this.components);
             this.BarraTransicion = new System.Windows.Forms.Timer(this.components);
@@ -73,7 +72,6 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_barra)).BeginInit();
             this.panel1.SuspendLayout();
@@ -107,17 +105,6 @@
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1197, 26);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pic_cerrar
             // 
@@ -169,7 +156,6 @@
             this.panel1.Controls.Add(this.btn_barra);
             this.panel1.Controls.Add(this.pic_cerrar);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -606,11 +592,11 @@
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
+            this.MaximizeBox = false;
             this.Name = "FrmDevSchool";
             this.Text = "Registro";
             this.Load += new System.EventHandler(this.FrmDevSchool_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_barra)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -638,7 +624,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pic_cerrar;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Timer TransicionMenu;

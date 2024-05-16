@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.lbl_apellido2 = new System.Windows.Forms.Label();
@@ -53,6 +53,8 @@
             this.txt_correo = new System.Windows.Forms.TextBox();
             this.lbl_correo = new System.Windows.Forms.Label();
             this.dgt_estudiantes = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_promedio = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgt_estudiantes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -233,6 +235,7 @@
             this.btn_eliminar.TabIndex = 22;
             this.btn_eliminar.Text = "ELIMINAR";
             this.btn_eliminar.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
             // txt_correo
             // 
@@ -254,14 +257,14 @@
             // 
             this.dgt_estudiantes.BackgroundColor = System.Drawing.Color.Gray;
             this.dgt_estudiantes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgt_estudiantes.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgt_estudiantes.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgt_estudiantes.GridColor = System.Drawing.Color.Black;
             this.dgt_estudiantes.Location = new System.Drawing.Point(34, 308);
             this.dgt_estudiantes.Name = "dgt_estudiantes";
@@ -270,12 +273,32 @@
             this.dgt_estudiantes.Size = new System.Drawing.Size(1175, 171);
             this.dgt_estudiantes.TabIndex = 25;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1000, 218);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(96, 20);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "PROMEDIO";
+            // 
+            // lbl_promedio
+            // 
+            this.lbl_promedio.AutoSize = true;
+            this.lbl_promedio.Location = new System.Drawing.Point(1032, 249);
+            this.lbl_promedio.Name = "lbl_promedio";
+            this.lbl_promedio.Size = new System.Drawing.Size(31, 20);
+            this.lbl_promedio.TabIndex = 27;
+            this.lbl_promedio.Text = "0.0";
+            // 
             // FrmResgitroEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1246, 609);
+            this.Controls.Add(this.lbl_promedio);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.dgt_estudiantes);
             this.Controls.Add(this.txt_correo);
             this.Controls.Add(this.lbl_correo);
@@ -337,5 +360,7 @@
         private System.Windows.Forms.TextBox txt_correo;
         private System.Windows.Forms.Label lbl_correo;
         private System.Windows.Forms.DataGridView dgt_estudiantes;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl_promedio;
     }
 }

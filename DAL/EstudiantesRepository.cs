@@ -58,7 +58,7 @@ namespace DAL
             estudiante.Apellido2 = (string)reader["segundo_apellido"];
             estudiante.Direccion = (string)reader["direccion"];
             estudiante.Telefono = (string)reader["telefono"];
-            estudiante.Fecha_Nacimiento = Convert.ToDateTime((string)reader["fecha_nacimiento"]);
+            estudiante.Fecha_Nacimiento = (string)reader["fecha_nacimiento"];
             estudiante.Mail = new MailAddress((string)reader["email"]);
             estudiante.Promedio_actual = Convert.ToDecimal(reader["promedio"]);
             
@@ -81,7 +81,7 @@ namespace DAL
                 sql.Parameters.AddWithValue("@segundo_apellido", estudiante.Apellido2);
                 sql.Parameters.AddWithValue("@direccion", estudiante.Direccion);
                 sql.Parameters.AddWithValue("@telefono", estudiante.Telefono);
-                sql.Parameters.AddWithValue("@fecha_nacimiento", estudiante.Fecha_Nacimiento.ToShortTimeString());
+                sql.Parameters.AddWithValue("@fecha_nacimiento", estudiante.Fecha_Nacimiento);
                 sql.Parameters.AddWithValue("@email", estudiante.Mail.Address);
                 sql.Parameters.AddWithValue("@promedio", estudiante.Promedio_actual);
                 sql.ExecuteNonQuery();
@@ -114,6 +114,9 @@ namespace DAL
         }
 
 
+     
+
+
         public void Modificar(Estudiantes estudiante) {
         using (var sql = connection.CreateCommand())
             {
@@ -128,7 +131,7 @@ namespace DAL
                 sql.Parameters.AddWithValue("@segundo_apellido", estudiante.Apellido2);
                 sql.Parameters.AddWithValue("@direccion", estudiante.Direccion);
                 sql.Parameters.AddWithValue("@telefono", estudiante.Telefono);
-                sql.Parameters.AddWithValue("@fecha_nacimiento", estudiante.Fecha_Nacimiento.ToShortTimeString());
+                sql.Parameters.AddWithValue("@fecha_nacimiento", estudiante.Fecha_Nacimiento);
                 sql.Parameters.AddWithValue("@email", estudiante.Mail.Address);
                 sql.Parameters.AddWithValue("@promedio", estudiante.Promedio_actual);
                 sql.ExecuteNonQuery();
@@ -138,6 +141,21 @@ namespace DAL
             }
         
         
+        }
+
+
+        public void Eliminar(string identificacion) {
+
+            using (var sql = connection.CreateCommand())
+            {
+
+                sql.CommandText = "Delete from Estudiantes where id_dni = @id_dni";
+                sql.Parameters.AddWithValue("@id_dni", identificacion);
+                sql.ExecuteNonQuery();
+
+            
+            
+            }
         }
     }
 
