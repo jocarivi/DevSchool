@@ -15,6 +15,7 @@ namespace DAL
     {
         SqlConnection connection;
         List<Estudiantes> estudiantes;
+        private EstudiantesRepository estudiantesRepo;
         public EstudiantesRepository(ConexionRepository conexionRepository) {
 
             connection = conexionRepository.connection;
@@ -45,6 +46,18 @@ namespace DAL
              
         
         }
+        public List<Estudiantes> BuscarCaracter(string caracter)
+        {
+                
+            
+            estudiantes = Consultar();
+            return estudiantes.Where(est => est.Id_dni.Contains(caracter)).ToList();
+          
+
+
+
+        }
+
 
 
         public Estudiantes Mapear(SqlDataReader reader) { 
@@ -157,6 +170,8 @@ namespace DAL
             
             }
         }
+
+        
     }
 
  

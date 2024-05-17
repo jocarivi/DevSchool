@@ -12,7 +12,7 @@ using ENTITY;
 
 namespace BLL
 {
-    public class EstudiantesService 
+    public class EstudiantesService
     {
         private ConexionRepository conexionRepository;
         private EstudiantesRepository estudiantesRepository;
@@ -20,11 +20,11 @@ namespace BLL
         List<Estudiantes> estudiantes;
         Estudiantes estudiante;
 
-     
+
 
         public EstudiantesService(string conexion) {
-        
-            conexionRepository =  new ConexionRepository(conexion);
+
+            conexionRepository = new ConexionRepository(conexion);
             estudiantesRepository = new EstudiantesRepository(conexionRepository);
 
         }
@@ -39,21 +39,21 @@ namespace BLL
                 conexionRepository.Open();
                 estudiantes = estudiantesRepository.Consultar();
                 return estudiantes;
-                    
-                    } catch (Exception e){ 
-                    
-                string msg =$"Error: "+ e.Message.ToString();
 
-            
-            } finally { 
+            } catch (Exception e) {
 
-                conexionRepository.Close(); 
-            
-            
+                string msg = $"Error: " + e.Message.ToString();
+
+
+            } finally {
+
+                conexionRepository.Close();
+
+
             }
 
             return null;
-        
+
         }
 
 
@@ -62,7 +62,7 @@ namespace BLL
 
             try
             {
-                
+
                 conexionRepository.Open();
                 estudiantesRepository.Agregar(estudiante);
 
@@ -106,10 +106,10 @@ namespace BLL
                 string msg = $"Error al modificar estudiante: " + e.Message.ToString();
 
             }
-            finally { 
-            
-                conexionRepository.Close() ;
-            
+            finally {
+
+                conexionRepository.Close();
+
             }
 
             return null;
@@ -118,12 +118,12 @@ namespace BLL
 
         public string Modificar(Estudiantes estudiante)
         {
-            try { 
-            
+            try {
+
                 conexionRepository.Open();
                 estudiantesRepository.Modificar(estudiante);
                 return "Estudiante modificado correctamente";
-            
+
             } catch (Exception e) {
 
                 string msg = $"Error al modificar estudiante: " + e.Message.ToString();
@@ -131,14 +131,14 @@ namespace BLL
             } finally {
 
                 conexionRepository.Close();
-            
+
             }
 
             return null;
-        
+
         }
 
-        public string Eliminar(string  identificacion) {
+        public string Eliminar(string identificacion) {
 
             try
             {
@@ -163,6 +163,33 @@ namespace BLL
 
             return null;
 
+
+
+        }
+
+
+        public List<Estudiantes> BuscarCaracter(string caracter) {
+
+            try
+            {
+                conexionRepository.Open();
+                return estudiantesRepository.BuscarCaracter(caracter);
+
+            }
+            catch (Exception e)
+            {
+
+                string msg = $"Error: " + e.Message.ToString();
+                
+                
+
+
+            }
+            finally { 
+                conexionRepository.Close(); 
+            }
+
+            return null; 
 
 
         }

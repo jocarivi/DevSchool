@@ -55,6 +55,7 @@
             this.dgt_estudiantes = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.lbl_promedio = new System.Windows.Forms.Label();
+            this.btn_limpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgt_estudiantes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,6 +148,7 @@
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(156, 26);
             this.txt_id.TabIndex = 10;
+            this.txt_id.TextChanged += new System.EventHandler(this.txt_id_TextChanged);
             // 
             // lbl_telefono
             // 
@@ -199,7 +201,7 @@
             // 
             // btn_agregar
             // 
-            this.btn_agregar.Location = new System.Drawing.Point(262, 533);
+            this.btn_agregar.Location = new System.Drawing.Point(204, 533);
             this.btn_agregar.Name = "btn_agregar";
             this.btn_agregar.Size = new System.Drawing.Size(112, 35);
             this.btn_agregar.TabIndex = 19;
@@ -209,7 +211,7 @@
             // 
             // btn_consultar
             // 
-            this.btn_consultar.Location = new System.Drawing.Point(446, 533);
+            this.btn_consultar.Location = new System.Drawing.Point(388, 533);
             this.btn_consultar.Name = "btn_consultar";
             this.btn_consultar.Size = new System.Drawing.Size(112, 35);
             this.btn_consultar.TabIndex = 20;
@@ -219,7 +221,7 @@
             // 
             // btn_modificar
             // 
-            this.btn_modificar.Location = new System.Drawing.Point(630, 533);
+            this.btn_modificar.Location = new System.Drawing.Point(572, 533);
             this.btn_modificar.Name = "btn_modificar";
             this.btn_modificar.Size = new System.Drawing.Size(112, 35);
             this.btn_modificar.TabIndex = 21;
@@ -229,7 +231,7 @@
             // 
             // btn_eliminar
             // 
-            this.btn_eliminar.Location = new System.Drawing.Point(817, 533);
+            this.btn_eliminar.Location = new System.Drawing.Point(759, 533);
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(112, 35);
             this.btn_eliminar.TabIndex = 22;
@@ -272,6 +274,7 @@
             this.dgt_estudiantes.RowTemplate.Height = 28;
             this.dgt_estudiantes.Size = new System.Drawing.Size(1175, 171);
             this.dgt_estudiantes.TabIndex = 25;
+            this.dgt_estudiantes.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgt_estudiantes_CellDoubleClick);
             // 
             // label3
             // 
@@ -291,12 +294,23 @@
             this.lbl_promedio.TabIndex = 27;
             this.lbl_promedio.Text = "0.0";
             // 
+            // btn_limpiar
+            // 
+            this.btn_limpiar.Location = new System.Drawing.Point(926, 533);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(112, 35);
+            this.btn_limpiar.TabIndex = 28;
+            this.btn_limpiar.Text = "LIMPIAR";
+            this.btn_limpiar.UseVisualStyleBackColor = true;
+            this.btn_limpiar.Click += new System.EventHandler(this.btn_limpiar_Click);
+            // 
             // FrmResgitroEstudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1246, 609);
+            this.ClientSize = new System.Drawing.Size(1239, 607);
+            this.Controls.Add(this.btn_limpiar);
             this.Controls.Add(this.lbl_promedio);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dgt_estudiantes);
@@ -362,5 +376,6 @@
         private System.Windows.Forms.DataGridView dgt_estudiantes;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbl_promedio;
+        private System.Windows.Forms.Button btn_limpiar;
     }
 }

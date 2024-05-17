@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Net.Mail;
 using System.Text;
@@ -18,12 +19,16 @@ namespace ProyectDevSchool
     {
         EstudiantesService estudiantesService;
 
+    
+
         public FrmResgitroEstudiante()
         {
             InitializeComponent();
             txt_id.Focus();
             estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
-            dgt_estudiantes.DataSource = estudiantesService.Consultar();
+           dgt_estudiantes.DataSource = estudiantesService.Consultar();
+            
+
         }
 
         
@@ -34,37 +39,18 @@ namespace ProyectDevSchool
 
         private void btn_consultar_Click(object sender, EventArgs e)
         {
-            if (txt_id.Text == "")
-            {
+
+            try {
                 estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
                 dgt_estudiantes.DataSource = estudiantesService.Consultar();
 
+            } catch (Exception ex) {
+
+                MessageBox.Show("Error al consultar datos" + ex.Message);
+            
             }
-            else if (txt_id.Text != "")
-            {
-                string identificacion = txt_id.Text;
-                Estudiantes estudiante = estudiantesService.ConsultarId(identificacion);
-                if (estudiante != null)
-                {
-                    
-                    txt_nombre1.Text = estudiante.Nombre;
-                    txt_nombre2.Text= estudiante.Nombre2;
-                    txt_apelldio1.Text = estudiante.Apellido1;
-                    txt_apellido2.Text= estudiante.Apellido2;
-                    txt_direecion.Text = estudiante.Direccion;
-                    txt_correo.Text = estudiante.Mail.Address;
-                    dtp_fechaNacimiento.Text = estudiante.Fecha_Nacimiento.ToString();
-                    txt_telefono.Text = estudiante.Telefono;
-                    lbl_promedio.Text = estudiante.Promedio_actual.ToString();
-
-                }
-                else {
-
-                    MessageBox.Show("Estudiante no encontrado");
                 
-                }
-            }
-           
+   
             
         }
 
@@ -185,6 +171,32 @@ namespace ProyectDevSchool
 
             
 
+        }
+
+        private void txt_id_TextChanged(object sender, EventArgs e)
+        {
+            estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
+            string filtro = txt_id.Text;
+            dgt_estudiantes.DataSource = estudiantesService.BuscarCaracter(filtro);
+        }
+
+        private void dgt_estudiantes_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txt_id.Text = dgt_estudiantes.CurrentRow.Cells[2].Value.ToString();
+            txt_nombre1.Text = dgt_estudiantes.CurrentRow.Cells[3].Value.ToString(); 
+            txt_nombre2.Text = dgt_estudiantes.CurrentRow.Cells[4].Value.ToString(); 
+            txt_apelldio1.Text = dgt_estudiantes.CurrentRow.Cells[5].Value.ToString(); 
+            txt_apellido2.Text = dgt_estudiantes.CurrentRow.Cells[6].Value.ToString(); 
+            txt_direecion.Text = dgt_estudiantes.CurrentRow.Cells[7].Value.ToString();                          
+            txt_telefono.Text = dgt_estudiantes.CurrentRow.Cells[8].Value.ToString();
+            dtp_fechaNacimiento.Text = dgt_estudiantes.CurrentRow.Cells[9].Value.ToString();
+            txt_correo.Text = dgt_estudiantes.CurrentRow.Cells[10].Value.ToString();
+            lbl_promedio.Text = dgt_estudiantes.CurrentRow.Cells[0].Value.ToString();
+        }
+
+        private void btn_limpiar_Click(object sender, EventArgs e)
+        {
+            Limpiar();
         }
     }
 }
