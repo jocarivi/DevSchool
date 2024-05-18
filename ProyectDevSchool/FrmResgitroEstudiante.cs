@@ -26,7 +26,7 @@ namespace ProyectDevSchool
             InitializeComponent();
             txt_id.Focus();
             estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
-           dgt_estudiantes.DataSource = estudiantesService.Consultar();
+           dgtEstudiantes.DataSource = estudiantesService.Consultar();
             
 
         }
@@ -40,18 +40,21 @@ namespace ProyectDevSchool
         private void btn_consultar_Click(object sender, EventArgs e)
         {
 
-            try {
+            try
+            {
                 estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
-                dgt_estudiantes.DataSource = estudiantesService.Consultar();
+                dgtEstudiantes.DataSource = estudiantesService.Consultar();
 
-            } catch (Exception ex) {
+            }
+            catch (Exception ex)
+            {
 
                 MessageBox.Show("Error al consultar datos" + ex.Message);
-            
+
             }
-                
-   
-            
+
+
+
         }
 
         private void dtg_estudiantes_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -78,7 +81,7 @@ namespace ProyectDevSchool
                 string mensaje = estudiantesService.Agregar(estudiante);
                 MessageBox.Show(mensaje,"Estudiante registrado :" ,MessageBoxButtons.OK, MessageBoxIcon.Information);
                 estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
-                dgt_estudiantes.DataSource = estudiantesService.Consultar();
+                dgtEstudiantes.DataSource = estudiantesService.Consultar();
                 Limpiar();
 
             } catch(Exception ex) {
@@ -148,7 +151,7 @@ namespace ProyectDevSchool
                     string mensaje = estudiantesService.Eliminar(identificacion);
                     MessageBox.Show(mensaje, "Estudiante Eliminado :", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
-                    dgt_estudiantes.DataSource = estudiantesService.Consultar();
+                    dgtEstudiantes.DataSource = estudiantesService.Consultar();
                     Limpiar();
 
 
@@ -177,26 +180,28 @@ namespace ProyectDevSchool
         {
             estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
             string filtro = txt_id.Text;
-            dgt_estudiantes.DataSource = estudiantesService.BuscarCaracter(filtro);
+            dgtEstudiantes.DataSource = estudiantesService.BuscarCaracter(filtro);
         }
 
         private void dgt_estudiantes_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            txt_id.Text = dgt_estudiantes.CurrentRow.Cells[2].Value.ToString();
-            txt_nombre1.Text = dgt_estudiantes.CurrentRow.Cells[3].Value.ToString(); 
-            txt_nombre2.Text = dgt_estudiantes.CurrentRow.Cells[4].Value.ToString(); 
-            txt_apelldio1.Text = dgt_estudiantes.CurrentRow.Cells[5].Value.ToString(); 
-            txt_apellido2.Text = dgt_estudiantes.CurrentRow.Cells[6].Value.ToString(); 
-            txt_direecion.Text = dgt_estudiantes.CurrentRow.Cells[7].Value.ToString();                          
-            txt_telefono.Text = dgt_estudiantes.CurrentRow.Cells[8].Value.ToString();
-            dtp_fechaNacimiento.Text = dgt_estudiantes.CurrentRow.Cells[9].Value.ToString();
-            txt_correo.Text = dgt_estudiantes.CurrentRow.Cells[10].Value.ToString();
-            lbl_promedio.Text = dgt_estudiantes.CurrentRow.Cells[0].Value.ToString();
+            txt_id.Text = dgtEstudiantes.CurrentRow.Cells[2].Value.ToString();
+            txt_nombre1.Text = dgtEstudiantes.CurrentRow.Cells[3].Value.ToString(); 
+            txt_nombre2.Text = dgtEstudiantes.CurrentRow.Cells[4].Value.ToString(); 
+            txt_apelldio1.Text = dgtEstudiantes.CurrentRow.Cells[5].Value.ToString(); 
+            txt_apellido2.Text = dgtEstudiantes.CurrentRow.Cells[6].Value.ToString(); 
+            txt_direecion.Text = dgtEstudiantes.CurrentRow.Cells[7].Value.ToString();                          
+            txt_telefono.Text = dgtEstudiantes.CurrentRow.Cells[8].Value.ToString();
+            dtp_fechaNacimiento.Text = dgtEstudiantes.CurrentRow.Cells[9].Value.ToString();
+            txt_correo.Text = dgtEstudiantes.CurrentRow.Cells[10].Value.ToString();
+            lbl_promedio.Text = dgtEstudiantes.CurrentRow.Cells[0].Value.ToString();
         }
 
         private void btn_limpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
         }
+
+       
     }
 }

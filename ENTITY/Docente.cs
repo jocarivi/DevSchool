@@ -8,6 +8,7 @@ namespace ENTITY
 {
     public class Docente : Personas
     {
-        string especialidad;
+       public string Especialidad { get; set; } 
+
     }
 }

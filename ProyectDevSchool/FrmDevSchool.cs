@@ -169,7 +169,7 @@ namespace ProyectDevSchool
 
         private void FrmRegistroDocente_FormClosed(object sender, FormClosedEventArgs e)
         {
-            throw new NotImplementedException();
+            Application.Exit();  
         }
 
         private void FrmRegistro_FormClosed(object sender, FormClosedEventArgs e)
