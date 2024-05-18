@@ -48,12 +48,6 @@ namespace ProyectDevSchool
             }
         }
 
-        private void dtg_estudiantes_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-       
 
         public void Limpiar()
         {
@@ -94,7 +88,7 @@ namespace ProyectDevSchool
                     {
 
                         string msj = docenteService.Modificar(docente);
-                        MessageBox.Show(msj, "Docente Modificado :", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(msj, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Limpiar();
 
                     }
@@ -232,7 +226,7 @@ namespace ProyectDevSchool
         {
             txtId.Text = dgtDocentes.CurrentRow.Cells[2].Value.ToString();
             txt1Nombre.Text = dgtDocentes.CurrentRow.Cells[3].Value.ToString();
-            txt2Apellido.Text = dgtDocentes.CurrentRow.Cells[4].Value.ToString();
+            txt2Nombre.Text = dgtDocentes.CurrentRow.Cells[4].Value.ToString();
             txt1Apellido.Text = dgtDocentes.CurrentRow.Cells[5].Value.ToString();
             txt2Apellido.Text = dgtDocentes.CurrentRow.Cells[6].Value.ToString();
             txtDireccion.Text = dgtDocentes.CurrentRow.Cells[7].Value.ToString();

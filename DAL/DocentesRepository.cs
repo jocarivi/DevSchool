@@ -142,7 +142,7 @@ namespace DAL
             using (var sql = connection.CreateCommand())
             {
 
-                sql.CommandText = "Update Docente set nombre=@nombre,segundo_nombre=@segundo_nombre,apellido=@apellido,segundo_apellido=@segundo_apellido,direccion=@direccion,telefono=@telefono,fecha_nacimiento=@fecha_nacimiento,email=@email,especialidad=@especialidad, where id_dni=@id_dni";
+                sql.CommandText = "Update Docente set nombre=@nombre,segundo_nombre=@segundo_nombre,apellido=@apellido,segundo_apellido=@segundo_apellido,direccion=@direccion,telefono=@telefono,fecha_nacimiento=@fecha_nacimiento,email=@email,especialidad=@especialidad where id_dni=@id_dni";
 
 
                 sql.Parameters.AddWithValue("@id_dni", docente.Id_dni);

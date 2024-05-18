@@ -53,8 +53,6 @@ namespace ProyectDevSchool
 
             }
 
-
-
         }
 
         private void dtg_estudiantes_CellContentClick(object sender, DataGridViewCellEventArgs e)

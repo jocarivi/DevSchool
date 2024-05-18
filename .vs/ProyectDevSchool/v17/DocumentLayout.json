@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Faust\\Documents\\GitHub\\DevSchool\\",
+  "WorkspaceRootPath": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|c:\\users\\faust\\documents\\github\\devschool\\proyectdevschool\\frmdevschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\frmdevschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE54BF15-E3EA-48FF-922B-06B500B33526}|DAL\\DAL.csproj|c:\\users\\jcricardo\\desktop\\jose ricardo-estudio\\proyectdevschool\\dal\\docentesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE54BF15-E3EA-48FF-922B-06B500B33526}|DAL\\DAL.csproj|solutionrelative:dal\\docentesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|c:\\users\\faust\\documents\\github\\devschool\\proyectdevschool\\frmresgitrodocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BE54BF15-E3EA-48FF-922B-06B500B33526}|DAL\\DAL.csproj|C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\dal\\estudiantesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE54BF15-E3EA-48FF-922B-06B500B33526}|DAL\\DAL.csproj|solutionrelative:dal\\estudiantesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\proyectdevschool\\frmresgitrodocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\frmresgitrodocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE54BF15-E3EA-48FF-922B-06B500B33526}|DAL\\DAL.csproj|C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BE54BF15-E3EA-48FF-922B-06B500B33526}|DAL\\DAL.csproj|solutionrelative:dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\proyectdevschool\\frmresgitroestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\frmresgitroestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\proyectdevschool\\frmresgitroestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\frmresgitroestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\proyectdevschool\\frmresgitrodocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\frmresgitrodocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|c:\\users\\faust\\documents\\github\\devschool\\proyectdevschool\\frmresgitroestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\frmresgitroestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\proyectdevschool\\frmdevschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79CA9295-0C73-4974-80AC-C0EC3BD867B0}|ProyectDevSchool\\ProyectDevSchool.csproj|solutionrelative:proyectdevschool\\frmdevschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmDevSchool.cs",
-              "DocumentMoniker": "C:\\Users\\Faust\\Documents\\GitHub\\DevSchool\\ProyectDevSchool\\FrmDevSchool.cs",
-              "RelativeDocumentMoniker": "ProyectDevSchool\\FrmDevSchool.cs",
-              "ToolTip": "C:\\Users\\Faust\\Documents\\GitHub\\DevSchool\\ProyectDevSchool\\FrmDevSchool.cs",
-              "RelativeToolTip": "ProyectDevSchool\\FrmDevSchool.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAtwKsAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T04:58:39.348Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmResgitroEstudiante.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Faust\\Documents\\GitHub\\DevSchool\\ProyectDevSchool\\FrmResgitroEstudiante.cs",
-              "RelativeDocumentMoniker": "ProyectDevSchool\\FrmResgitroEstudiante.cs",
-              "ToolTip": "C:\\Users\\Faust\\Documents\\GitHub\\DevSchool\\ProyectDevSchool\\FrmResgitroEstudiante.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectDevSchool\\FrmResgitroEstudiante.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T23:59:50.208Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmResgitroDocente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Faust\\Documents\\GitHub\\DevSchool\\ProyectDevSchool\\FrmResgitroDocente.cs",
+              "Title": "EstudiantesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\DAL\\EstudiantesRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\EstudiantesRepository.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\DAL\\EstudiantesRepository.cs",
+              "RelativeToolTip": "DAL\\EstudiantesRepository.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAswI8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:48:18.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\DAL\\packages.config",
+              "RelativeDocumentMoniker": "DAL\\packages.config",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\DAL\\packages.config",
+              "RelativeToolTip": "DAL\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-18T06:48:17.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocentesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\DAL\\DocentesRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\DocentesRepository.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\DAL\\DocentesRepository.cs",
+              "RelativeToolTip": "DAL\\DocentesRepository.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAArwKIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:44:22.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmResgitroEstudiante.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroEstudiante.cs",
+              "RelativeDocumentMoniker": "ProyectDevSchool\\FrmResgitroEstudiante.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroEstudiante.cs",
+              "RelativeToolTip": "ProyectDevSchool\\FrmResgitroEstudiante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:19:25.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmResgitroDocente.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroDocente.cs",
               "RelativeDocumentMoniker": "ProyectDevSchool\\FrmResgitroDocente.cs",
-              "ToolTip": "C:\\Users\\Faust\\Documents\\GitHub\\DevSchool\\ProyectDevSchool\\FrmResgitroDocente.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroDocente.cs",
+              "RelativeToolTip": "ProyectDevSchool\\FrmResgitroDocente.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAADgv1kAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:18:53.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmDevSchool.cs",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmDevSchool.cs",
+              "RelativeDocumentMoniker": "ProyectDevSchool\\FrmDevSchool.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmDevSchool.cs",
+              "RelativeToolTip": "ProyectDevSchool\\FrmDevSchool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:17:44.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmResgitroEstudiante.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroEstudiante.cs",
+              "RelativeDocumentMoniker": "ProyectDevSchool\\FrmResgitroEstudiante.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroEstudiante.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectDevSchool\\FrmResgitroEstudiante.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:17:45.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmResgitroDocente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroDocente.cs",
+              "RelativeDocumentMoniker": "ProyectDevSchool\\FrmResgitroDocente.cs",
+              "ToolTip": "C:\\Users\\jcricardo\\Desktop\\JOSE RICARDO-ESTUDIO\\ProyectDevSchool\\ProyectDevSchool\\FrmResgitroDocente.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectDevSchool\\FrmResgitroDocente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:16:32.059Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-18T06:17:45.01Z"
             }
           ]
         }
