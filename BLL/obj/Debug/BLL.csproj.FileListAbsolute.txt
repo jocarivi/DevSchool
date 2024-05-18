@@ -17,3 +17,22 @@ C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\BLL\obj\Debug\B
 C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\BLL\obj\Debug\BLL.dll
 C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\BLL\obj\Debug\BLL.pdb
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\obj\Debug\BLL.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\obj\Debug\BLL.pdb
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\BLL.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\BLL.pdb
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\DAL.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\ENTITY.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\linq2db.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\DAL.pdb
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\ENTITY.pdb
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\linq2db.xml
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Faust\Documents\GitHub\DevSchool\BLL\obj\Debug\BLL.csproj.Up2Date

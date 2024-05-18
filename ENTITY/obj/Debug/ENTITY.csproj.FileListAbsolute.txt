@@ -4,3 +4,9 @@ C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debu
 C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
 C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\Faust\Documents\GitHub\DevSchool\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\Faust\Documents\GitHub\DevSchool\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\Faust\Documents\GitHub\DevSchool\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\Faust\Documents\GitHub\DevSchool\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\Faust\Documents\GitHub\DevSchool\ENTITY\obj\Debug\ENTITY.pdb
