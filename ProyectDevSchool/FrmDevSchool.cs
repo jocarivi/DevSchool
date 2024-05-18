@@ -142,7 +142,7 @@ namespace ProyectDevSchool
 
         private void FrmInicio_FormClosed(object sender, FormClosedEventArgs e)
         {
-            throw new NotImplementedException();
+            Application.Exit();
         }
 
         private void FrmDevSchool_Load(object sender, EventArgs e)

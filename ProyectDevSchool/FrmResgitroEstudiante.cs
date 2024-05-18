@@ -49,9 +49,7 @@ namespace ProyectDevSchool
                 MessageBox.Show("Error al consultar datos" + ex.Message);
             
             }
-                
    
-            
         }
 
         private void dtg_estudiantes_CellContentClick(object sender, DataGridViewCellEventArgs e)
