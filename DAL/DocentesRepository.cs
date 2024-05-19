@@ -49,11 +49,17 @@ namespace DAL
         }
         public List<Docente> BuscarCaracter(string caracter)
         {
-
-
             docentes = Consultar();
-            return docentes.Where(doce => doce.Id_dni.Contains(caracter)).ToList();
-            
+            if (caracter == "")
+            {
+                return docentes;
+            }
+            else
+            {
+                return docentes.Where(doce => doce.Id_dni.Contains(caracter) || doce.Nombre.ToLower().Contains(caracter.ToLower())).ToList();
+
+            }
+
         }
 
         public Docente Mapear(SqlDataReader reader)

@@ -97,6 +97,12 @@
     <Compile Include="FrmInicio.Designer.cs">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRegistroEspecialiad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistroEspecialiad.Designer.cs">
+      <DependentUpon>FrmRegistroEspecialiad.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmResgitroEstudiante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistroEspecialiad.resx">
+      <DependentUpon>FrmRegistroEspecialiad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmResgitroEstudiante.resx">
       <DependentUpon>FrmResgitroEstudiante.cs</DependentUpon>

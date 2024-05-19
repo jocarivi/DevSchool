@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,7 @@ namespace ProyectDevSchool
         FrmInicio frmInicio;
         FrmResgitroDocente frmRegistroDocente;
         FrmResgitroEstudiante frmResgitroEstudiante;
+        FrmRegistroEspecialiad frmRegistroEspecialiad;
 
         public FrmDevSchool()
         {
@@ -175,6 +177,7 @@ namespace ProyectDevSchool
         private void FrmRegistro_FormClosed(object sender, FormClosedEventArgs e)
         {
             frmRegistroDocente = null;
+
         }
 
         private void btn_estudiante_Click(object sender, EventArgs e)
@@ -194,12 +197,50 @@ namespace ProyectDevSchool
                 {
                     frmResgitroEstudiante.Activate();
                 }
-            } catch { }
+            } catch(Exception ex){
+
+                MessageBox.Show("Error: "+ ex.Message);
+            
+            }
           
 
         }
 
         private void FrmResgitroEstudiante_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+       
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (frmRegistroEspecialiad == null)
+                {
+
+                    frmRegistroEspecialiad = new FrmRegistroEspecialiad();
+                    frmRegistroEspecialiad.FormClosed += FrmRegistroEspecialidad_FormClosed;
+                    frmRegistroEspecialiad.MdiParent = this;
+                    frmRegistroEspecialiad.Dock = DockStyle.Fill;
+                    frmRegistroEspecialiad.Show();
+
+                }
+                else
+                {
+                    frmRegistroEspecialiad.Activate();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+
+            }
+        }
+
+        private void FrmRegistroEspecialidad_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }

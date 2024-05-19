@@ -11,12 +11,14 @@ using System.Windows.Forms;
 using BLL;
 using ENTITY;
 using System.Net.Mail;
+using Syncfusion.Windows.Forms.Tools.Win32API;
 
 namespace ProyectDevSchool
 {
     public partial class FrmResgitroDocente : Form
     {
         DocenteService docenteService;
+        EspecialidadService especialidadService;
 
 
         public FrmResgitroDocente()
@@ -60,7 +62,7 @@ namespace ProyectDevSchool
             txtCorreo.Text = "";
             dtp_fechaNacimiento.Text = DateTime.Now.ToString();
             txtTelefono.Text = "";
-            txtEspecialidad.Text = "";
+            cmb_especialidad.Text = "";
 
 
         }
@@ -81,7 +83,7 @@ namespace ProyectDevSchool
                     docente.Mail = new MailAddress(txtCorreo.Text.Trim());
                     docente.Fecha_Nacimiento = dtp_fechaNacimiento.Text;
                     docente.Telefono = txtTelefono.Text;
-                    docente.Especialidad = txtEspecialidad.Text;
+                    docente.Especialidad = cmb_especialidad.Text;
                     
                     var respuesta = MessageBox.Show("¿Desea continuar con esta acción? ", " ", MessageBoxButtons.OKCancel);
                     if (respuesta == DialogResult.OK)
@@ -205,7 +207,7 @@ namespace ProyectDevSchool
                 docente.Mail = new MailAddress(txtCorreo.Text.Trim());
                 docente.Fecha_Nacimiento = dtp_fechaNacimiento.Text;
                 docente.Telefono = txtTelefono.Text;
-                docente.Especialidad = txtEspecialidad.Text;
+                docente.Especialidad = cmb_especialidad.Text;
 
                 string mensaje = docenteService.Agregar(docente);
                 MessageBox.Show(mensaje, "Docente registrado :", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -233,7 +235,20 @@ namespace ProyectDevSchool
             txtTelefono.Text = dgtDocentes.CurrentRow.Cells[8].Value.ToString();
             dtp_fechaNacimiento.Text = dgtDocentes.CurrentRow.Cells[9].Value.ToString();
             txtCorreo.Text = dgtDocentes.CurrentRow.Cells[10].Value.ToString();
-            txtEspecialidad.Text = dgtDocentes.CurrentRow.Cells[0].Value.ToString();
+            cmb_especialidad.Text = dgtDocentes.CurrentRow.Cells[0].Value.ToString();
+        }
+
+        private void txt1Nombre_TextChanged(object sender, EventArgs e)
+        {           
+            string filtro = txt1Nombre.Text;
+            docenteService = new DocenteService(ConfigConnection.connectionString);
+            dgtDocentes.DataSource = docenteService.BuscarCaracter(filtro);
+
+        }
+
+        private void cmb_especialidad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

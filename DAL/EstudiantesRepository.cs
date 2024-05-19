@@ -48,14 +48,17 @@ namespace DAL
         }
         public List<Estudiantes> BuscarCaracter(string caracter)
         {
-                
-            
-            estudiantes = Consultar();
-            return estudiantes.Where(est => est.Id_dni.Contains(caracter)).ToList();
-          
+           estudiantes = Consultar();
+           if (caracter=="") {
+                return estudiantes;
+            }else
+            {
+               return estudiantes.Where(est => est.Id_dni.Contains(caracter) || est.Nombre.ToLower().Contains(caracter.ToLower())).ToList();
 
+            }
 
-
+           
+   
         }
 
 

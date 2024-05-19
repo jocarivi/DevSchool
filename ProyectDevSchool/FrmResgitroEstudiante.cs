@@ -176,9 +176,12 @@ namespace ProyectDevSchool
 
         private void txt_id_TextChanged(object sender, EventArgs e)
         {
-            estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
-            string filtro = txt_id.Text;
-            dgtEstudiantes.DataSource = estudiantesService.BuscarCaracter(filtro);
+
+            string filtroId = txt_id.Text;           
+              
+                    estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
+                    dgtEstudiantes.DataSource = estudiantesService.BuscarCaracter(filtroId);                 
+                    
         }
 
         private void dgt_estudiantes_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -200,6 +203,13 @@ namespace ProyectDevSchool
             Limpiar();
         }
 
-       
+        private void txt_nombre1_TextChanged(object sender, EventArgs e)
+        {
+            string filtroNombre = txt_nombre1.Text;
+
+                    estudiantesService = new EstudiantesService(ConfigConnection.connectionString);
+                    dgtEstudiantes.DataSource = estudiantesService.BuscarCaracter(filtroNombre);
+         
+        }
     }
 }
