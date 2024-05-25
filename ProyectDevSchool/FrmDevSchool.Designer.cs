@@ -63,22 +63,26 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.panel_reportes = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel_salir = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.panelEspecialidad = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.panel_reportes = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panelGrados = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.panel_salir = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_cerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_barra)).BeginInit();
@@ -97,14 +101,16 @@
             this.panel9.SuspendLayout();
             this.panel_materias.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel_reportes.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel_salir.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panelEspecialidad.SuspendLayout();
             this.panel16.SuspendLayout();
+            this.panel_reportes.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panelGrados.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.panel_salir.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel17.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -395,12 +401,13 @@
             this.Barra.Controls.Add(this.panel_usuarios);
             this.Barra.Controls.Add(this.panel_materias);
             this.Barra.Controls.Add(this.panelEspecialidad);
+            this.Barra.Controls.Add(this.panelGrados);
             this.Barra.Controls.Add(this.panel_reportes);
             this.Barra.Controls.Add(this.panel_salir);
             this.Barra.Dock = System.Windows.Forms.DockStyle.Left;
             this.Barra.Location = new System.Drawing.Point(0, 119);
             this.Barra.Name = "Barra";
-            this.Barra.Size = new System.Drawing.Size(479, 739);
+            this.Barra.Size = new System.Drawing.Size(479, 818);
             this.Barra.TabIndex = 17;
             // 
             // panel_inicio
@@ -500,151 +507,6 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // panel_reportes
-            // 
-            this.panel_reportes.Controls.Add(this.panel7);
-            this.panel_reportes.Controls.Add(this.button5);
-            this.panel_reportes.Location = new System.Drawing.Point(0, 445);
-            this.panel_reportes.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
-            this.panel_reportes.Name = "panel_reportes";
-            this.panel_reportes.Size = new System.Drawing.Size(319, 64);
-            this.panel_reportes.TabIndex = 18;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.button4);
-            this.panel7.Location = new System.Drawing.Point(8, 8);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(319, 64);
-            this.panel7.TabIndex = 12;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Navy;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(-22, -29);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(351, 107);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "                Generar Reporte";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Navy;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(-14, -21);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(351, 99);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "          Gestionar Usuario";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // panel_salir
-            // 
-            this.panel_salir.Controls.Add(this.panel2);
-            this.panel_salir.Controls.Add(this.panel17);
-            this.panel_salir.Controls.Add(this.button15);
-            this.panel_salir.Location = new System.Drawing.Point(0, 515);
-            this.panel_salir.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
-            this.panel_salir.Name = "panel_salir";
-            this.panel_salir.Size = new System.Drawing.Size(319, 64);
-            this.panel_salir.TabIndex = 19;
-            // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.button14);
-            this.panel17.Location = new System.Drawing.Point(8, 8);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(319, 64);
-            this.panel17.TabIndex = 12;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.Navy;
-            this.button14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(-22, -29);
-            this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(351, 107);
-            this.button14.TabIndex = 10;
-            this.button14.Text = "                Salir";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.Navy;
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(-14, -21);
-            this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button15.Size = new System.Drawing.Size(351, 99);
-            this.button15.TabIndex = 10;
-            this.button15.Text = "          Gestionar Usuario";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Location = new System.Drawing.Point(16, 16);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(319, 64);
-            this.panel2.TabIndex = 20;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.button6);
-            this.panel6.Location = new System.Drawing.Point(8, 8);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(319, 64);
-            this.panel6.TabIndex = 12;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Navy;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(-22, -29);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(351, 107);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "                Salir";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Navy;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(-14, -21);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(351, 99);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "          Gestionar Usuario";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
             // panelEspecialidad
             // 
             this.panelEspecialidad.Controls.Add(this.panel16);
@@ -694,10 +556,204 @@
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.UseVisualStyleBackColor = false;
             // 
+            // panel_reportes
+            // 
+            this.panel_reportes.Controls.Add(this.panel7);
+            this.panel_reportes.Controls.Add(this.button5);
+            this.panel_reportes.Location = new System.Drawing.Point(0, 515);
+            this.panel_reportes.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.panel_reportes.Name = "panel_reportes";
+            this.panel_reportes.Size = new System.Drawing.Size(319, 64);
+            this.panel_reportes.TabIndex = 18;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.button4);
+            this.panel7.Location = new System.Drawing.Point(8, 8);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(319, 64);
+            this.panel7.TabIndex = 12;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Navy;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(-22, -29);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(351, 107);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "                Generar Reporte";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Navy;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(-14, -21);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(351, 99);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "          Gestionar Usuario";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // panelGrados
+            // 
+            this.panelGrados.Controls.Add(this.panel18);
+            this.panelGrados.Controls.Add(this.button17);
+            this.panelGrados.Location = new System.Drawing.Point(0, 445);
+            this.panelGrados.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.panelGrados.Name = "panelGrados";
+            this.panelGrados.Size = new System.Drawing.Size(319, 64);
+            this.panelGrados.TabIndex = 19;
+            // 
+            // panel18
+            // 
+            this.panel18.Controls.Add(this.button16);
+            this.panel18.Location = new System.Drawing.Point(8, 8);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(319, 64);
+            this.panel18.TabIndex = 12;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.Navy;
+            this.button16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
+            this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button16.Location = new System.Drawing.Point(-22, -29);
+            this.button16.Name = "button16";
+            this.button16.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button16.Size = new System.Drawing.Size(351, 107);
+            this.button16.TabIndex = 10;
+            this.button16.Text = "                Gestionar Matricula";
+            this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.Navy;
+            this.button17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
+            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button17.Location = new System.Drawing.Point(-14, -21);
+            this.button17.Name = "button17";
+            this.button17.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button17.Size = new System.Drawing.Size(351, 99);
+            this.button17.TabIndex = 10;
+            this.button17.Text = "          Gestionar Usuario";
+            this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // panel_salir
+            // 
+            this.panel_salir.Controls.Add(this.panel2);
+            this.panel_salir.Controls.Add(this.panel17);
+            this.panel_salir.Controls.Add(this.button15);
+            this.panel_salir.Location = new System.Drawing.Point(0, 585);
+            this.panel_salir.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.panel_salir.Name = "panel_salir";
+            this.panel_salir.Size = new System.Drawing.Size(319, 64);
+            this.panel_salir.TabIndex = 19;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.button7);
+            this.panel2.Location = new System.Drawing.Point(16, 16);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(319, 64);
+            this.panel2.TabIndex = 20;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.button6);
+            this.panel6.Location = new System.Drawing.Point(8, 8);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(319, 64);
+            this.panel6.TabIndex = 12;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Navy;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(-22, -41);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(351, 107);
+            this.button6.TabIndex = 10;
+            this.button6.Text = "                Salir";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Navy;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(-14, -21);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(351, 99);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "          Gestionar Usuario";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.button14);
+            this.panel17.Location = new System.Drawing.Point(8, 8);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(319, 64);
+            this.panel17.TabIndex = 12;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Navy;
+            this.button14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.Location = new System.Drawing.Point(-22, -29);
+            this.button14.Name = "button14";
+            this.button14.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button14.Size = new System.Drawing.Size(351, 107);
+            this.button14.TabIndex = 10;
+            this.button14.Text = "                Salir";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Navy;
+            this.button15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
+            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button15.Location = new System.Drawing.Point(-14, -21);
+            this.button15.Name = "button15";
+            this.button15.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button15.Size = new System.Drawing.Size(351, 99);
+            this.button15.TabIndex = 10;
+            this.button15.Text = "          Gestionar Usuario";
+            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button15.UseVisualStyleBackColor = false;
+            // 
             // FrmDevSchool
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1302, 858);
+            this.ClientSize = new System.Drawing.Size(1302, 937);
             this.Controls.Add(this.Barra);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.White;
@@ -726,14 +782,16 @@
             this.panel9.ResumeLayout(false);
             this.panel_materias.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel_reportes.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel_salir.ResumeLayout(false);
-            this.panel17.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
             this.panelEspecialidad.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
+            this.panel_reportes.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panelGrados.ResumeLayout(false);
+            this.panel18.ResumeLayout(false);
+            this.panel_salir.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -788,6 +846,10 @@
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Panel panelGrados;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
     }
 }
 

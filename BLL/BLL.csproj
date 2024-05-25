@@ -58,7 +58,9 @@
     <Compile Include="DocenteService.cs" />
     <Compile Include="EspecialidadService.cs" />
     <Compile Include="EstudiantesService.cs" />
+    <Compile Include="GradoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MatriculaService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

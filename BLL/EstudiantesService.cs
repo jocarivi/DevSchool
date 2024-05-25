@@ -193,8 +193,35 @@ namespace BLL
 
 
         }
+        public List<Estudiantes> BuscarCaracterExacto(string caracter)
+        {
 
-       
+            try
+            {
+                conexionRepository.Open();
+                return estudiantesRepository.BuscarCaracterExacto(caracter);
+
+            }
+            catch (Exception e)
+            {
+
+                string msg = $"Error: " + e.Message.ToString();
+
+
+
+
+            }
+            finally
+            {
+                conexionRepository.Close();
+            }
+
+            return null;
+
+
+        }
+
+
 
 
     }

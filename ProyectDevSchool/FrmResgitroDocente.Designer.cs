@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
@@ -247,14 +247,14 @@
             // 
             this.dgtDocentes.BackgroundColor = System.Drawing.Color.Gray;
             this.dgtDocentes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgtDocentes.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgtDocentes.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgtDocentes.GridColor = System.Drawing.Color.Black;
             this.dgtDocentes.Location = new System.Drawing.Point(26, 343);
             this.dgtDocentes.Name = "dgtDocentes";
@@ -262,7 +262,6 @@
             this.dgtDocentes.RowTemplate.Height = 28;
             this.dgtDocentes.Size = new System.Drawing.Size(1174, 171);
             this.dgtDocentes.TabIndex = 26;
-            this.dgtDocentes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgtDocentes_CellContentClick);
             this.dgtDocentes.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgtDocentes_CellDoubleClick);
             // 
             // btnAgregar
@@ -338,7 +337,8 @@
             this.cmb_especialidad.Name = "cmb_especialidad";
             this.cmb_especialidad.Size = new System.Drawing.Size(148, 28);
             this.cmb_especialidad.TabIndex = 33;
-            this.cmb_especialidad.SelectedIndexChanged += new System.EventHandler(this.cmb_especialidad_SelectedIndexChanged);
+            this.cmb_especialidad.Text = "SELECCIONE";
+            
             // 
             // FrmResgitroDocente
             // 

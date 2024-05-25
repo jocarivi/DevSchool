@@ -18,6 +18,7 @@ namespace ProyectDevSchool
         FrmResgitroDocente frmRegistroDocente;
         FrmResgitroEstudiante frmResgitroEstudiante;
         FrmRegistroEspecialiad frmRegistroEspecialiad;
+        FrmMatricula frmMatricula;
 
         public FrmDevSchool()
         {
@@ -241,6 +242,38 @@ namespace ProyectDevSchool
         }
 
         private void FrmRegistroEspecialidad_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (frmMatricula == null)
+                {
+
+                    frmMatricula = new FrmMatricula();
+                    frmMatricula.FormClosed += FrmMatricula_FormClosed;
+                    frmMatricula.MdiParent = this;
+                    frmMatricula.Dock = DockStyle.Fill;
+                    frmMatricula.Show();
+
+                }
+                else
+                {
+                    frmMatricula.Activate();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+
+            }
+        }
+
+        private void FrmMatricula_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }

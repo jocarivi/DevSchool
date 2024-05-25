@@ -48,6 +48,7 @@
     <Compile Include="Estudiantes.cs" />
     <Compile Include="Grado.cs" />
     <Compile Include="Materia.cs" />
+    <Compile Include="Matricula.cs" />
     <Compile Include="Personas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

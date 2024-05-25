@@ -8,9 +8,9 @@ namespace ENTITY
 {
     public class Grado
     {
-        string id;
-        string nombre_grado;
-        string jornada;
+        public int id { get; set; }
+        public string grado { get; set; }
+       
 
     }
 }

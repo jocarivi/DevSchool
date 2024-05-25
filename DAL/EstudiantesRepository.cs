@@ -61,6 +61,22 @@ namespace DAL
    
         }
 
+        public List<Estudiantes> BuscarCaracterExacto(string caracter)
+        {
+            estudiantes = Consultar();
+            if (caracter == "")
+            {
+                return estudiantes;
+            }
+            else
+            {
+                return estudiantes.Where(est => est.Id_dni.Equals(caracter)).ToList();
+
+            }
+
+
+
+        }
 
 
         public Estudiantes Mapear(SqlDataReader reader) { 

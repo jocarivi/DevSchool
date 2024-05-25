@@ -57,6 +57,8 @@
     <Compile Include="ConexionRepository.cs" />
     <Compile Include="DocentesRepository.cs" />
     <Compile Include="EstudiantesRepository.cs" />
+    <Compile Include="GradoRepository.cs" />
+    <Compile Include="MatriculaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

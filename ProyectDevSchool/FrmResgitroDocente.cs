@@ -26,12 +26,15 @@ namespace ProyectDevSchool
             InitializeComponent();
             txtId.Focus();
             docenteService = new DocenteService(ConfigConnection.connectionString);
+            especialidadService = new EspecialidadService(ConfigConnection.connectionString);
             dgtDocentes.DataSource = docenteService.Consultar();
+            
         }
 
         private void FrmResgitro_Load(object sender, EventArgs e)
         {
-            this.ControlBox = false;
+            CargarComboEspecialidad();
+
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
@@ -62,7 +65,7 @@ namespace ProyectDevSchool
             txtCorreo.Text = "";
             dtp_fechaNacimiento.Text = DateTime.Now.ToString();
             txtTelefono.Text = "";
-            cmb_especialidad.Text = "";
+            cmb_especialidad.Text = "SELECCIONE";
 
 
         }
@@ -181,11 +184,7 @@ namespace ProyectDevSchool
             }
         }
 
-        private void dgtDocentes_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
-           
-        }
+   
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
@@ -246,9 +245,14 @@ namespace ProyectDevSchool
 
         }
 
-        private void cmb_especialidad_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
+        public void CargarComboEspecialidad() {
+            especialidadService = new EspecialidadService(ConfigConnection.connectionString);
+            cmb_especialidad.DataSource = especialidadService.Consultar();
+            cmb_especialidad.ValueMember = "id";
+            cmb_especialidad.DisplayMember = "especialidad";
+
         }
+
+       
     }
 }

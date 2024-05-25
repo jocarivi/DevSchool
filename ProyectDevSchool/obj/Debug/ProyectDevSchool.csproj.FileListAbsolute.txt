@@ -75,3 +75,44 @@ C:\Users\Faust\Documents\GitHub\DevSchool\ProyectDevSchool\obj\Debug\ProyectD.CD
 C:\Users\Faust\Documents\GitHub\DevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.exe
 C:\Users\Faust\Documents\GitHub\DevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.pdb
 C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmRegistroEspecialiad.resources
+C:\Users\jcricardo\Desktop\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmMatricula.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\ProyectDevSchool.exe.config
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\ProyectDevSchool.exe
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\ProyectDevSchool.pdb
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\BLL.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\ENTITY.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\FontAwesome.Sharp.Pro.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Grid.Base.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Grid.Windows.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Shared.Windows.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.SpellChecker.Base.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Tools.Base.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Tools.Windows.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\DAL.dll
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\BLL.pdb
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\ENTITY.pdb
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Grid.Base.xml
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.SpellChecker.Base.xml
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Tools.Base.xml
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\Syncfusion.Tools.Windows.xml
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\bin\Debug\DAL.pdb
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.csproj.AssemblyReference.cache
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmDevSchool.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmMatricula.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmInicio.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmRegistroEspecialiad.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmResgitroEstudiante.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.FrmResgitroDocente.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.Properties.Resources.resources
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.csproj.GenerateResource.cache
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.csproj.CoreCompileInputs.cache
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectD.CD9FA4B7.Up2Date
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.exe
+C:\Users\jcricardo\OneDrive - Indra\Escritorio\JOSE RICARDO-ESTUDIO\ProyectDevSchool\ProyectDevSchool\obj\Debug\ProyectDevSchool.pdb
